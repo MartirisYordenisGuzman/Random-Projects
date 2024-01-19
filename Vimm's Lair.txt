@@ -1,0 +1,11 @@
+Thanks for visiting The Vault at Vimm's Lair.
+
+	vimm.net
+
+This GameCube CISO was created with NKit2 alpha 64 from the following Redump ISO.
+
+Legend of Zelda, The - Collector's Edition (USA).iso
+CRC:   8D2141CF
+MD5:   2C66F072455CCDBE97A72E5C94784DF8
+SHA-1: 35E66BF6A0F32597BEB5F8B055C1D424A41A89D7
+Date:  2022-09-23

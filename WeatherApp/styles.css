@@ -1,0 +1,311 @@
+* {
+    font-family: "Microsoft Tai Le";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    gap: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 5vw;
+    height: 100vh;
+   
+}
+
+.time,
+.city-name,
+.temperature, 
+.todays-forecast-text, 
+.temp, .air-condition-title, .time, .future-predictions #title {
+    font-family: "Microsoft Tai Le Bold";
+}
+
+#navBar {
+    width: 100%;
+    height: 94vh;
+    background-color: #F8F8F8;
+    border: solid #707070 1px;
+    border-radius: 10px;
+}
+
+#weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10PX;
+}
+
+#settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#weather img {
+    width: 30px;
+    height: 30px;
+
+}
+
+#weather p {
+    font-family: "Microsoft Tai Le Bold";
+    font-size: 0.7rem;
+    display: block;
+ 
+}
+
+#settings img {    
+    width: 30px;
+    height: 30px;
+    transform: rotate(90deg);
+
+}
+#settings p {
+    font-family: "Microsoft Tai Le Bold";
+    display: block;
+    font-size: 0.7rem;
+
+}
+
+#nav-elements {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px 0;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 67vw;
+    height: 94vh;
+    gap: 10px;
+  
+}
+
+#asideContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 25vw;
+    height: 94vh;
+
+
+}
+
+#searchBar {
+    width: 80%;
+    height: 8%;
+    border: solid #707070 1px;
+    border-radius: 25px;
+    background-color: #F8F8F8;
+}
+
+.header-info {
+    width: 80%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.city-data {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.city-name {
+    font-size: 2rem;
+    font-weight: 800;
+}
+.rain-chance{
+    font-size: 0.8rem;
+    color: #707070;
+}
+.temperature {
+    font-size: 3.2rem;
+}
+.header-img {
+    height: 98%;
+    width: auto;
+}
+
+
+.hourly-forecast {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    height: 24vh;
+    background-color: #707070;
+    border-radius: 15px;
+    background-color: #F8F8F8;
+    border: solid #707070 1px;
+}
+
+.todays-forecast-text {
+    font-size: 0.6rem;
+    color: #707070;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.air-condition {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 30vh;
+    border-radius: 15px;
+    background-color: #F8F8F8;
+    border: solid #707070 1px;
+}
+
+
+.future-predictions {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 95%;
+    height: 85vh;
+    background-color: #F8F8F8;
+    border-radius: 15px;
+    border: solid #707070 1px;
+}
+
+.future-predictions #title {
+    margin-top: 20px;
+    font-size: 0.7rem;
+    color: #707070;
+    margin-left: 15px;
+  
+}
+
+#next-days-list {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 70%;
+    display: flex;
+    margin: auto 0;
+}
+
+
+
+#next-day-element {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    border-bottom: 1px solid gray;
+}
+#next-day-element:last-of-type {
+    border-bottom: none;
+}
+
+#next-day-element .first-div, #next-day-element .second-div, #next-day-element .third-div {
+    font-family: "Microsoft Tai Le Bold";
+    font-size: 0.7rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 33.3%;
+    height: 100%;
+ 
+}
+
+#next-day-element .third-div {
+    justify-content: end;
+}
+
+.second-div img {
+    width: 30px;
+    
+}
+
+.hourly-forecast ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+    gap: 15px;
+
+}
+
+
+
+.hourly-forecast li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 80px;
+    border-left: 1px solid #707070;
+}
+.hourly-forecast ul li:first-of-type {
+    border-left: none;
+}
+
+.hour img {
+    width: 55px;
+}
+
+.time {
+    font-size: 0.7rem;
+    color: #707070;
+}
+
+.temp{
+    font-size: 0.9rem;
+}
+
+
+.air-condition-title {
+    font-size: 0.7rem;
+    color: #707070;
+    width: 100%;
+    height: 20px;
+    padding: 20px;
+
+}
+
+.air-condition-main-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90%;
+    background-color: blue;
+
+}
+
+.air-condition-sub-container {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    border: none;
+}
