@@ -6,6 +6,7 @@
 }
 
 body {
+    background-image: url("./pexels-konevi-3789871.jpg");
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -33,7 +34,9 @@ header {
 .city-name,
 .temperature, 
 .todays-forecast-text, 
-.temp, .air-condition-title, .time, .future-predictions #title {
+.temp, .air-condition-title, .time, 
+.future-predictions #title, .state, #settings p,
+#weather p, .numbers, .air-property-title, .air-property-value {
     font-family: "Microsoft Tai Le Bold";
 }
 
@@ -68,7 +71,6 @@ header {
 }
 
 #weather p {
-    font-family: "Microsoft Tai Le Bold";
     font-size: 0.7rem;
     display: block;
  
@@ -81,7 +83,6 @@ header {
 
 }
 #settings p {
-    font-family: "Microsoft Tai Le Bold";
     display: block;
     font-size: 0.7rem;
 
@@ -111,6 +112,7 @@ main {
     justify-content: flex-end;
     width: 25vw;
     height: 94vh;
+    
 
 
 }
@@ -121,7 +123,14 @@ main {
     border: solid #707070 1px;
     border-radius: 25px;
     background-color: #F8F8F8;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
+
+#searchBar::placeholder {
+    padding-left: 20px;
+}
+
 
 .header-info {
     width: 80%;
@@ -177,7 +186,7 @@ main {
 }
 .air-condition {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 95%;
     height: 30vh;
     border-radius: 15px;
@@ -238,7 +247,7 @@ main {
  
 }
 
-#next-day-element .third-div {
+.third-div {
     justify-content: end;
 }
 
@@ -299,13 +308,41 @@ main {
     flex-direction: row;
     width: 100%;
     height: 90%;
-    background-color: blue;
+
 
 }
 
 .air-condition-sub-container {
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
     width: 50%;
     height: 100%;
     border: none;
+}
+
+.air-property {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    padding-left: 20px;
+
+}
+
+.air-property-logo {
+    align-self: flex-start;
+    width: 12px;
+    width: 20px;
+    filter: invert(33%) sepia(98%) saturate(0%) hue-rotate(156deg) brightness(110%) contrast(101%);
+} 
+
+.air-property-title {
+    color: #707070;
+    font-size: 0.9rem;
+}
+
+.air-property-data {
+    margin-top: 4px;
 }
