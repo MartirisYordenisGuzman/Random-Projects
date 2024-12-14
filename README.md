@@ -8,6 +8,8 @@ Welcome to the **Radom-Projects** repository! 🎉 This is a collection of my ra
 - 🤓 **Today I Learned:** [Web App where you can add short facts that you can learn every day.]
 - 🖼️ **Expanding Cards** [Just a simple gallery with expanding efects when you click it.]
 - 🪜 **Progress Steps** [Just a common functionality of steps progression while completing a form.]
+- 🦝 **Rotating Navigation** [A good-looking rotation effect to open a navigation bar.]
+
 
 ## How to Use
 
