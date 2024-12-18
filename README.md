@@ -11,6 +11,8 @@ Welcome to the **Radom-Projects** repository! 🎉 This is a collection of my ra
 - 🎯 **5- Rotating Navigation** [A good-looking rotation effect to open a navigation bar.]
 - 🎯 **6- Hidden Search Widget** [Search icon turns into a search bar once you click it.]
 - 🎯 **7- Blurry Loading** [A simple functionality of loading a blurry page, image, or component.]
+- 🎯 **8- Scroll Animation** [When you scroll some items insert into the viewport.]
+
 
 
 ## How to Use
