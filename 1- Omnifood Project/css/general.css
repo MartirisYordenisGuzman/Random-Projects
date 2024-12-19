@@ -88,7 +88,19 @@ body {
     max-width: 120rem;
     margin: 0 auto;
     padding: 0 3.2rem;
+    transform: translateX(400%);
+    transition: transform 1s ease;
 }
+
+.container:nth-of-type(even) {
+    transform: translateX(-400%);
+}
+
+
+.container.show {
+    transform: translateX(0);
+}
+
 
 .grid {
     display: grid;

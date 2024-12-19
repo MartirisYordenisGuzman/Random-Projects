@@ -98,3 +98,26 @@ checkFlexGap();
 
 // https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js
 
+
+
+// SCROLL ANIMATION
+
+const containers = document.querySelectorAll('.container');
+
+window.addEventListener('scroll', checkContainers);
+
+checkContainers();
+
+function checkContainers() {
+  const triggerBottom = window.innerHeight / 5 * 4;
+
+  containers.forEach(container => {
+    const containerTop = container.getBoundingClientRect().top;
+
+    if(containerTop < triggerBottom) {
+      container.classList.add('show');
+    } else {
+      container.classList.remove('show');
+    }
+  });
+};
