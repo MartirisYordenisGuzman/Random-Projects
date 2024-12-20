@@ -12,6 +12,9 @@ Welcome to the **Radom-Projects** repository! 🎉 This is a collection of my ra
 - 🎯 **6- Hidden Search Widget** [Search icon turns into a search bar once you click it.]
 - 🎯 **7- Blurry Loading** [A simple functionality of loading a blurry page, image, or component.]
 - 🎯 **8- Scroll Animation** [When you scroll some items insert into the viewport.]
+- 🎯 **9- Split Landing Page** [A page is divided into two columns, when the mouse hover one section, the section expands and the other one shrinks.]
+- 🎯 **10- Form Wave Animation** [The imput's label has a wave animation when you click it.]
+
 
 
 
