@@ -15,6 +15,7 @@ Welcome to the **Radom-Projects** repository! 🎉 This is a collection of my ra
 - 🎯 **9- Split Landing Page** [A page is divided into two columns, when the mouse hover one section, the section expands and the other one shrinks.]
 - 🎯 **10- Form Wave Animation** [The imput's label has a wave animation once you click it.]
 - 🎯 **11- Sound Board** [It plays a different sound everytime you click a button.]
+- 🎯 **12- Dad Jokes** [A simple page that connects to an API of dad jokes.]
 
 
 
